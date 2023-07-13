@@ -1,0 +1,171 @@
+.new{
+    width: 1179px;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 31px 24px;
+
+    form{
+        width: 1130px;
+        padding: 40px 49px;
+
+        div{
+            display: flex;
+            // flex-direction: column;
+            margin-bottom: 34px;
+
+            label{
+                margin-bottom: 12px;
+                color: #212121;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 72%;
+            }
+            input{
+                outline: none;
+                border-radius: 6px;
+                border: none;
+                padding-left: 20px;
+                background-color: #F6F6FB;
+            }
+        }
+
+        .form-group1{
+            flex-direction: column;
+            margin-bottom: 40px;
+            input{
+                width: 764px;
+                padding-left: 20px;
+                height: 44px;
+                border-radius: 6px;
+                background: #F6F6FB;
+            }
+        }
+        .form-group2-3{
+            display: flex;
+            align-items: center;
+            height: 45px;
+            padding: 0px;
+            gap: 40px;
+            margin-bottom: 51px;
+
+            div{
+                display: flex;
+                flex-direction: column;
+            }
+            input{
+                width: 362px;
+                height: 44px;
+
+            }
+        }
+        .form-group3{
+            flex-direction: column;
+
+
+            input{
+                width: 362px;
+                height: 44px;
+            }
+        }
+        .form-group4{
+            flex-direction: column;
+
+            input{
+                width: 362px;
+                height: 44px;
+            }
+        }
+        .form-group5{
+            flex-direction: column;
+
+            input{
+                width: 764px;
+                height: 110px;
+                border-radius: 6px;
+                background: #F6F6FB;
+                border: none;
+            }
+        }
+        .form-group6{
+            flex-direction: column;
+            margin-bottom: 120px;
+            input{
+                width: 228px;
+                height: 44px;
+            }
+        }
+        .form-group7{
+            flex-direction: column;
+
+            input{
+                margin-bottom: 10px;
+                padding-top: 50px;
+                padding-left: -20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 112px;
+                height: 112px;
+                border: none;
+                font-size: 10px;
+            }
+            p{
+                color: #A4A4BA;
+                font-family: Mulish;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 72%;
+            }
+        }
+        .form-group8{
+
+            select{
+                border: none;
+                padding: 0 20px;
+                width: 362px;
+                height: 44px;
+                border-radius: 6px;
+                background: #F6F6FB;
+                color: #60607A;
+                font-family: Mulish;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 72%;
+            }
+        }
+        .form-group9-10{
+            display: flex;  
+            margin-bottom: 50px;
+            gap: 40px;
+            
+            div{
+                flex-direction: column;
+            }
+            input{
+                width: 228px;
+                height: 44px;
+            }
+        }
+
+        .new-saqlash{
+            display: flex;
+            width: 117px;
+            height: 40px;
+            margin: 0 auto;
+            padding: 13px 26px;
+            flex-direction: column;
+            border-radius: 6px;
+            background: #1BC58D;
+            border: none;
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 72%;
+        }
+
+    }
+}

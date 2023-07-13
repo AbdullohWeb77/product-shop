@@ -1,0 +1,24 @@
+.menu{
+    width: 97px;
+    padding: 34px 24px 54px;
+    flex-direction: column;
+    background: #5B5CE2;
+    box-shadow: 10px 0px 60px 0px rgba(0, 0, 0, 0.05);
+
+    .menu-items{
+        margin: 0 auto;
+        border-radius: 10px;
+        height: 50px;
+        width: 49px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+
+        &:hover{
+            background-color:#E9E9FF;
+            transition-duration: 1s;
+        }
+    }
+
+}

@@ -1,0 +1,11 @@
+.App{
+    display: flex;
+    width: 1364px;
+    margin: 0 auto;
+    margin-bottom: -8px;
+}
+.pages-con{
+    padding: 40px 48px 0px 40px;
+    width: 1267px;
+    background: #EEEEF5;
+}   

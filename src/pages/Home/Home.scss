@@ -1,0 +1,49 @@
+.home{
+    width: 1179px;
+    height: 548px;
+    border-radius: 12px;
+    background: #FFF;
+    padding-top: 30px;
+    padding-bottom: 89px;
+
+    .home-con{
+        width: 1130px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3{
+            margin-bottom: 64px;
+            color: #212121;
+            text-align: center;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 72%;
+        }
+        img{
+            margin-bottom: 66px;
+        }
+        .home-btn{
+            padding: 15px 24px;
+            color: #FFF;
+            text-align: center;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            border-radius: 6px;
+            background: #1BC58D;
+            border: none;
+             
+            &:hover{
+                box-shadow: 10px 0px 60px 0px  #1BC58D;
+                background-color: #FFF;
+                color: #1BC58D;
+                transition-duration: 0.7s;
+            }
+        }
+
+    }
+} 
